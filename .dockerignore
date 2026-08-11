@@ -15,3 +15,11 @@ node_modules
 *.swo
 *.bak
 *~
+
+# Ignore tests, coverage, and CI/dev tooling (not needed in the runtime image)
+tests
+coverage
+jest.config.js
+Jenkinsfile
+docs
+*.md

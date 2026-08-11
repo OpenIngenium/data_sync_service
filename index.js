@@ -88,4 +88,9 @@ async function startService() {
   }
 }
 
-startService();
+/* istanbul ignore next: entry-point guard, exercised only when run directly */
+if (require.main === module) {
+  startService();
+}
+
+module.exports = { startService, sleepMilisecs };

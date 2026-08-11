@@ -395,4 +395,10 @@ module.exports = {
     preprocessDocument,
     initialSync,
     incrementalSync,
+    setDefaultDate,
+    notADate,
+    processEntries,
+    getTagNames,
+    getElementData,
+    getProcedureElementData,
 };

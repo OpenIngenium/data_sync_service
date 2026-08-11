@@ -11,7 +11,7 @@ A simple script to incrementally transfer data from ArangoDB to Elasticsearch, k
 
 ## Prerequisites
 
-- Node.js (version 14.0 or higher)
+- Node.js (version 24.18.1, the latest Active LTS; see `.nvmrc`)
 - An ArangoDB instance
 - An Elasticsearch instance
  
