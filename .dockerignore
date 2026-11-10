@@ -1,0 +1,24 @@
+# Ignore node_modules folder
+node_modules
+
+# Ignore environment configuration files
+.env
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore Git and editor files
+.git
+.gitignore
+*.swp
+*.swo
+*.bak
+*~
+
+# Ignore tests, coverage, and CI/dev tooling (not needed in the runtime image)
+tests
+coverage
+jest.config.js
+docs
+*.md
